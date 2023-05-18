@@ -1,0 +1,70 @@
+.logo1 {
+  position: relative;
+  width: 158px;
+  height: 45px;
+}
+.left-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-45xl);
+}
+.search-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text7 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: center;
+}
+.log-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text8 {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: uppercase;
+  font-family: var(--font-raleway);
+  color: var(--color-white);
+  text-align: center;
+}
+.primary-button1 {
+  border-radius: var(--br-33xl);
+  background: linear-gradient(266.79deg, #0048ff, #0096ff);
+  height: 40px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-23xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.container,
+.nav-bar,
+.primary-button1 {
+  display: flex;
+  align-items: center;
+}
+.container {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-832xl);
+}
+.nav-bar {
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 72px;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-61xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
